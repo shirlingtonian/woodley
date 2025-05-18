@@ -1,0 +1,382 @@
+[
+  {
+    "name": "Harvard",
+    "score": 79
+  },
+  {
+    "name": "Yale",
+    "score": 79
+  },
+  {
+    "name": "Princeton",
+    "score": 79
+  },
+  {
+    "name": "MIT",
+    "score": 79
+  },
+  {
+    "name": "Stanford",
+    "score": 79
+  },
+  {
+    "name": "Dartmouth",
+    "score": 70
+  },
+  {
+    "name": "Duke",
+    "score": 68
+  },
+  {
+    "name": "Notre Dame",
+    "score": 68
+  },
+  {
+    "name": "Rice",
+    "score": 66
+  },
+  {
+    "name": "UPenn",
+    "score": 65
+  },
+  {
+    "name": "Vanderbilt",
+    "score": 64
+  },
+  {
+    "name": "WashU",
+    "score": 64
+  },
+  {
+    "name": "Brown",
+    "score": 63
+  },
+  {
+    "name": "UChicago",
+    "score": 63
+  },
+  {
+    "name": "Emory",
+    "score": 62
+  },
+  {
+    "name": "Northwestern",
+    "score": 62
+  },
+  {
+    "name": "JHU",
+    "score": 61
+  },
+  {
+    "name": "Columbia",
+    "score": 60
+  },
+  {
+    "name": "Cornell",
+    "score": 59
+  },
+  {
+    "name": "Georgetown",
+    "score": 58
+  },
+  {
+    "name": "Carnegie Melon",
+    "score": 58
+  },
+  {
+    "name": "UMich Ann Arbor",
+    "score": 57
+  },
+  {
+    "name": "University of Virginia",
+    "score": 57
+  },
+  {
+    "name": "Berkeley",
+    "score": 57
+  },
+  {
+    "name": "UCLA",
+    "score": 56
+  },
+  {
+    "name": "Tufts",
+    "score": 56
+  },
+  {
+    "name": "UNC-CH",
+    "score": 56
+  },
+  {
+    "name": "Georgia Tech",
+    "score": 55
+  },
+  {
+    "name": "Boston College",
+    "score": 55
+  },
+  {
+    "name": "Case Western",
+    "score": 55
+  },
+  {
+    "name": "USC",
+    "score": 55
+  },
+  {
+    "name": "Wake Forest",
+    "score": 54
+  },
+  {
+    "name": "William & Mary",
+    "score": 54
+  },
+  {
+    "name": "NYU",
+    "score": 54
+  },
+  {
+    "name": "UFlorida",
+    "score": 54
+  },
+  {
+    "name": "Tulane",
+    "score": 53
+  },
+  {
+    "name": "Brandeis",
+    "score": 52
+  },
+  {
+    "name": "Rochester",
+    "score": 52
+  },
+  {
+    "name": "UC Davis",
+    "score": 52
+  },
+  {
+    "name": "Northeastern",
+    "score": 52
+  },
+  {
+    "name": "Irvine",
+    "score": 52
+  },
+  {
+    "name": "Lehigh",
+    "score": 52
+  },
+  {
+    "name": "UWisconsin",
+    "score": 52
+  },
+  {
+    "name": "BU",
+    "score": 52
+  },
+  {
+    "name": "OSU",
+    "score": 52
+  },
+  {
+    "name": "Santa Clara",
+    "score": 51
+  },
+  {
+    "name": "Villanova",
+    "score": 51
+  },
+  {
+    "name": "University of Maryland (College Park)",
+    "score": 51
+  },
+  {
+    "name": "UIUC",
+    "score": 51
+  },
+  {
+    "name": "RPI",
+    "score": 51
+  },
+  {
+    "name": "UMiami",
+    "score": 51
+  },
+  {
+    "name": "UGA",
+    "score": 51
+  },
+  {
+    "name": "George Washington",
+    "score": 50
+  },
+  {
+    "name": "Purdue",
+    "score": 50
+  },
+  {
+    "name": "Colorado School of Mines",
+    "score": 50
+  },
+  {
+    "name": "North Carolina State",
+    "score": 50
+  },
+  {
+    "name": "Yeshiva University",
+    "score": 49
+  },
+  {
+    "name": "Stevens Insitute",
+    "score": 49
+  },
+  {
+    "name": "Pitt",
+    "score": 49
+  },
+  {
+    "name": "UWash",
+    "score": 49
+  },
+  {
+    "name": "Minnesota",
+    "score": 49
+  },
+  {
+    "name": "FSU",
+    "score": 49
+  },
+  {
+    "name": "Binghampton",
+    "score": 49
+  },
+  {
+    "name": "Rutgers",
+    "score": 48
+  },
+  {
+    "name": "Virginia Tech",
+    "score": 48
+  },
+  {
+    "name": "Brigham Young University",
+    "score": 48
+  },
+  {
+    "name": "Clemson",
+    "score": 48
+  },
+  {
+    "name": "Fordham",
+    "score": 48
+  },
+  {
+    "name": "Texas A&M",
+    "score": 48
+  },
+  {
+    "name": "SBU",
+    "score": 48
+  },
+  {
+    "name": "Pepperdine",
+    "score": 47
+  },
+  {
+    "name": "American University",
+    "score": 47
+  },
+  {
+    "name": "Syracuse",
+    "score": 47
+  },
+  {
+    "name": "Penn State",
+    "score": 46
+  },
+  {
+    "name": "UConn",
+    "score": 46
+  },
+  {
+    "name": "UMass amherst",
+    "score": 46
+  },
+  {
+    "name": "University of Vermont",
+    "score": 46
+  },
+  {
+    "name": "Indiana University",
+    "score": 46
+  },
+  {
+    "name": "Auburn University",
+    "score": 45
+  },
+  {
+    "name": "UC Riverside",
+    "score": 45
+  },
+  {
+    "name": "University of Iowa",
+    "score": 45
+  },
+  {
+    "name": "Elon University",
+    "score": 45
+  },
+  {
+    "name": "Drexel University",
+    "score": 44
+  },
+  {
+    "name": "University of Colorado Boulder",
+    "score": 44
+  },
+  {
+    "name": "MSU",
+    "score": 44
+  },
+  {
+    "name": "UMBC",
+    "score": 44
+  },
+  {
+    "name": "University of Delaware",
+    "score": 44
+  },
+  {
+    "name": "SUNY Buffalo",
+    "score": 43
+  },
+  {
+    "name": "James Madison",
+    "score": 42
+  },
+  {
+    "name": "University of Arizona",
+    "score": 42
+  },
+  {
+    "name": "George Mason",
+    "score": 41
+  },
+  {
+    "name": "Temple University",
+    "score": 41
+  },
+  {
+    "name": "UC Merced",
+    "score": 40
+  },
+  {
+    "name": "Howard University",
+    "score": 40
+  },
+  {
+    "name": "VCU",
+    "score": 39
+  }
+]

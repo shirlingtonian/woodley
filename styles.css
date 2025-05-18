@@ -137,3 +137,15 @@ body {
 .ranking-links a:hover {
   text-decoration: underline;
 }
+
+.intro.full-bleed {
+  padding: var(--space-lg) var(--space-md); /* top/bottom | left/right */
+}
+
+.intro-text {
+  font-family: var(--font-heading);
+  color: var(--blue-brand);
+  font-size: 6rem;
+  line-height: 1.2;
+  margin: 0;
+}

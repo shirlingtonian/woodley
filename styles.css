@@ -1,4 +1,4 @@
-/* Global reset and box-sizing */
+/* Reset and box-sizing */
 *,
 *::before,
 *::after {
@@ -8,51 +8,27 @@
 }
 
 :root {
-  /* Spacing */
   --space-sm: 0.5rem;
   --space-md: 1rem;
   --space-lg: 1.5rem;
 
-  /* Fonts */
-  --font-heading: 'Crimson Text', serif;
-  --font-body: 'Outfit', sans-serif;
+  --font-heading: 'Garamond', serif;
+  --font-body: 'Arial', sans-serif;
 
-  /* Colors */
-  --blue-brand: #002147;
+  --blue-brand: #1E90FF;
   --bg-page: #FFFFFF;
   --text-primary: #333333;
 }
 
-/* Base body styling */
 body {
   margin: 0;
   padding: 0;
   font-family: var(--font-body);
   background: var(--bg-page);
   color: var(--text-primary);
-  overflow-x: hidden; /* prevent horizontal scroll */
+  overflow-x: hidden;
 }
 
-/* Container for centered content */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  /* top/right/bottom = var(--space-md), left = 0 */
-  padding: var(--space-md) var(--space-md) var(--space-md) 0;
-}
-
-/* Intro text styling */
-.intro-text {
-  font-family: var(--font-heading);
-  color: var(--blue-brand);
-  font-size: 6rem;
-  text-align: left;
-  margin-top: 3rem;
-  margin-left: 1rem;  
-  line-height: 1.2;
-}
-
-/* Header styling */
 .site-header {
   display: flex;
   align-items: center;
@@ -88,64 +64,25 @@ body {
   text-decoration: underline;
 }
 
-/* Table styling for interactive rankings */
-.table-sortable {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: var(--space-lg);
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-md);
 }
 
-.table-sortable th,
-.table-sortable td {
-  padding: var(--space-sm) var(--space-md);
-  border: 1px solid #ddd;
-}
-
-.table-sortable th {
-  cursor: pointer;
-  background: #f5f5f5;
-}
-
-.table-sortable tr:nth-child(even) {
-  background: #fafafa;
-}
-
-/* Page title styling (used on rankings pages) */
-.page-title {
-  font-family: var(--font-heading);
-  font-size: 2rem;
-  margin-bottom: var(--space-md);
-}
-
-/* Ranking links list on dashboard */
-.ranking-links {
-  list-style: none;
-  padding: 0;
-  margin: var(--space-lg) 0;
-}
-
-.ranking-links li {
-  margin-bottom: var(--space-sm);
-}
-
-.ranking-links a {
-  font-family: var(--font-body);
-  text-decoration: none;
-  color: var(--blue-brand);
-}
-
-.ranking-links a:hover {
-  text-decoration: underline;
-}
-
+/* Full-bleed intro */
 .intro.full-bleed {
-  padding: var(--space-lg) var(--space-md); /* top/bottom | left/right */
+  width: 100%;
+  padding: var(--space-lg) var(--space-md);
+  background: transparent;
 }
 
+/* Intro text styling */
 .intro-text {
   font-family: var(--font-heading);
   color: var(--blue-brand);
   font-size: 6rem;
+  text-align: left;
   line-height: 1.2;
   margin: 0;
 }

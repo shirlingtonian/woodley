@@ -35,34 +35,33 @@ header h1 {
   font-weight: bold;
 }
 /* Header layout */
-.site-header {
-  display: flex;           /* lay out logo + title in a row */
-  align-items: center;     /* vertically center them */
-  margin-bottom: 1rem;     /* spacing below the header */
-}
-
-/* Logo sizing */
-.site-logo {
-  height: 50px;            /* adjust this to taste */
-  width: auto;             /* preserve aspect ratio */
-  margin-right: 1rem;      /* space between logo and title */
-}
-
-/* Site title styling */
-.site-title {
-  font-family: 'Georgia', serif; /* choose whatever font you like */
-  font-size: 2rem;               /* larger heading size */
-  margin: 0;                     /* remove default h1 margin */
-  color: #1E90FF;                /* use your custom blue here */
-}
-/* 1. Header: logo top-left, title beside it */
+/* 1. Dark background for the header bar */
 .site-header {
   display: flex;
   align-items: center;
-  padding: var(--space-md) var(--space-lg);
-  background: var(--bg-page);
-  /* Fix to top if you like: */
-  /* position: fixed; top: 0; width: 100%; z-index: 10; */
+  padding: var(--space-sm) var(--space-lg);
+  background-color: #002855;    /* your dark-blue hex here */
+  /* optional if you want it to stick to the top: */
+  /* position: sticky; top: 0; z-index: 1000; */
+}
+
+/* 2. Push the nav to the right */
+.header-nav {
+  margin-left: auto;
+  display: flex;
+  gap: var(--space-md);
+}
+
+/* 3. Style the links white */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-family: var(--font-body); /* body font, or use --font-heading */
+  padding: var(--space-sm) var(--space-md);
+}
+
+.nav-link:hover {
+  text-decoration: underline;
 }
 
 .site-logo {

@@ -34,3 +34,24 @@ header h1 {
   color: #0066cc;
   font-weight: bold;
 }
+/* Header layout */
+.site-header {
+  display: flex;           /* lay out logo + title in a row */
+  align-items: center;     /* vertically center them */
+  margin-bottom: 1rem;     /* spacing below the header */
+}
+
+/* Logo sizing */
+.site-logo {
+  height: 50px;            /* adjust this to taste */
+  width: auto;             /* preserve aspect ratio */
+  margin-right: 1rem;      /* space between logo and title */
+}
+
+/* Site title styling */
+.site-title {
+  font-family: 'Georgia', serif; /* choose whatever font you like */
+  font-size: 2rem;               /* larger heading size */
+  margin: 0;                     /* remove default h1 margin */
+  color: #1E90FF;                /* use your custom blue here */
+}

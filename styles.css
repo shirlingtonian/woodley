@@ -80,8 +80,9 @@ header h1 {
 /* 2. Hero/banner */
 .hero {
   margin-top: var(--space-lg);
-  height: 300px;              /* adjust as you like */
-  background: url('assets/hero.jpg') center/cover no-repeat;
+  height: 300px;              
+-  background: url('assets/hero.jpg') center/cover no-repeat;
++  background: url('assets/hero-bg.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;

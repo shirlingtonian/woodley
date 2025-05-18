@@ -6,36 +6,34 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Site header with logo and title -->
+  <!-- Full-width header -->
   <header class="site-header">
-<header class="site-header">
-  <img src="assets/Woodley Icon.png" alt="Site Logo" class="site-logo">
-
-  <nav class="header-nav">
-    <a href="index.html" class="nav-link">Home</a>
-    <a href="rankings.html" class="nav-link">Rankings</a>
-    <a href="about.html" class="nav-link">About</a>
-    <!-- add more links here -->
-  </nav>
-</header>
-
+    <img src="assets/Woodley Icon.png" alt="Site Logo" class="site-logo">
+    <nav class="header-nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="rankings.html" class="nav-link">Rankings</a>
+      <a href="about.html" class="nav-link">About</a>
+    </nav>
   </header>
 
-  <!-- Hero/banner area -->
+  <!-- Full-width hero/banner -->
   <section class="hero">
-    <!-- You can swap out this background in CSS for your own image -->
     <div class="hero-content">
       <h2>Rankings for you.</h2>
       <p>The Woodley Index purports to measure...</p>
     </div>
   </section>
 
-  <!-- Tabs/navigation below the hero -->
-  <nav class="tabs">
-    <a href="rankings.html" class="tab active">View National University Rankings →</a>
-  </nav>
+  <!-- Centered container for tabs and content -->
+  <div class="container">
+    <nav class="tabs">
+      <a href="rankings.html" class="tab active">View National University Rankings →</a>
+    </nav>
 
-  <!-- (Optional footer, etc.) -->
+    <main id="grid" class="card-grid">
+      <!-- Ranking cards will render here -->
+    </main>
+  </div>
 
   <script src="script.js"></script>
 </body>

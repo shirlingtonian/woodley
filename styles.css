@@ -82,7 +82,8 @@ header h1 {
 .hero {
   margin-top: var(--space-lg);
   height: 300px;
-  background: url('assets/hero-bg.jpg') center/cover no-repeat;
+- background: url('assets/hero-bg.jpg') center/cover no-repeat;
++ background: url('assets/hero-bg.png') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;

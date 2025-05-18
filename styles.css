@@ -1,62 +1,56 @@
+
+:root {
+  /* Spacing */
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+
+  /* Fonts */
+  --font-heading: 'Garamond', serif;
+  --font-body: 'Arial', sans-serif;
+
+  /* Colors */
+  --blue-brand: #1E90FF;
+  --bg-page: #FFFFFF;
+  --text-primary: #333333;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: var(--font-body);
   margin: 0;
-  padding: 1rem;
+  padding: var(--space-md);
+  background: var(--bg-page);
+  color: var(--text-primary);
 }
-header h1 {
-  text-align: center;
-}
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
-.card {
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  padding: 1rem;
-  box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
-}
-.card h2 {
-  margin: 0 0 0.5rem;
-  font-size: 1.2rem;
-}
-.card ul {
-  list-style: none;
-  padding: 0;
-  margin: 0.5rem 0;
-}
-.card-more {
-  display: inline-block;
-  margin-top: 0.5rem;
-  text-decoration: none;
-  color: #0066cc;
-  font-weight: bold;
-}
+
 /* Header layout */
-/* 1. Dark background for the header bar */
 .site-header {
   display: flex;
   align-items: center;
   padding: var(--space-sm) var(--space-lg);
-  background-color: #002855;    /* your dark-blue hex here */
-  /* optional if you want it to stick to the top: */
-  /* position: sticky; top: 0; z-index: 1000; */
+  background-color: #002855;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
-/* 2. Push the nav to the right */
+.site-logo {
+  height: 60px;
+  width: auto;
+  margin-right: var(--space-md);
+}
+
 .header-nav {
   margin-left: auto;
   display: flex;
-  gap: var(--space-md);
+  gap: var(--space-lg);
 }
 
-/* 3. Style the links white */
 .nav-link {
   color: white;
   text-decoration: none;
-  font-family: var(--font-body); /* body font, or use --font-heading */
+  font-family: var(--font-body);
   padding: var(--space-sm) var(--space-md);
 }
 
@@ -64,26 +58,14 @@ header h1 {
   text-decoration: underline;
 }
 
-.site-logo {
-  height: 60px;          /* adjust up/down until it looks right */
-  width: auto;
-  margin-right: var(--space-md);
-}
-
-.site-title {
-  font-family: var(--font-heading);
-  font-size: 1.75rem;
-  margin: 0;
-  color: var(--blue-brand);
-}
-
-/* 2. Hero/banner */
-/* 2. Hero/banner */
+/* Hero/banner */
 .hero {
   margin-top: var(--space-lg);
   height: 300px;
-- background: url('assets/hero-bg.jpg') center/cover no-repeat;
-+ background: url('assets/hero-bg.png') center/cover no-repeat;
+  background-image: url('assets/hero-bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,9 +74,9 @@ header h1 {
 }
 
 .hero-content h2 {
+  font-family: var(--font-heading);
   font-size: 2.5rem;
   margin: 0;
-  font-family: var(--font-heading);
 }
 
 .hero-content p {
@@ -102,7 +84,7 @@ header h1 {
   margin-top: var(--space-sm);
 }
 
-/* 3. Tabs/nav under hero */
+/* Tabs/nav under hero */
 .tabs {
   display: flex;
   justify-content: center;
@@ -121,6 +103,41 @@ header h1 {
 
 .tab.active {
   border-color: var(--blue-brand);
+  color: var(--blue-brand);
+  font-weight: bold;
+}
+
+/* Card grid and cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: var(--space-md);
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+.card h2 {
+  margin: 0 0 var(--space-sm);
+  font-size: 1.2rem;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-sm) 0;
+}
+
+.card-more {
+  display: inline-block;
+  margin-top: var(--space-sm);
+  text-decoration: none;
   color: var(--blue-brand);
   font-weight: bold;
 }
